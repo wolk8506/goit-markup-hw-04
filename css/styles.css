@@ -449,7 +449,8 @@ address {
   fill: var(--background-color);
   background-color: var(--icon-color-footer);
 }
-.link-social.join:hover {
+.link-social.join:hover,
+.link-social.join:focus {
   background-color: var(--accent-color);
 }
 .list.join-list {
